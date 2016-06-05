@@ -1,0 +1,15 @@
+{
+  "name": "ubik-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Syntax theme inspired by the gotham syntax theme, expanded with new colours to better render code",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/ubik-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
