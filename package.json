@@ -2,12 +2,14 @@
   "name": "ubik-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Syntax theme inspired by the gotham syntax theme, expanded with new colours to better render code",
+  "description": "Dark syntax theme inspired by vim's gotham colorscheme, extended to better highlight code, with a focus on Python and Jinja2.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "python",
+    "jinja"
   ],
-  "repository": "https://github.com/atom/ubik-syntax",
+  "repository": "https://github.com/mr-ubik/ubik-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

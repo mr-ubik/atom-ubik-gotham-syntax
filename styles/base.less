@@ -75,6 +75,10 @@ atom-text-editor .search-results .marker.current-result .region,
       &.jinja {
         color: @ubik-yellow;
       }
+
+      &.import {
+        color: @red;
+      }
   }
 
   &.operator {
@@ -124,6 +128,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.parameter.function {
     color: @base4;
   }
+
+  &.other.jinja {
+    color: @syntax-text-color;
+  }
 }
 
 .invalid.illegal {
@@ -132,8 +140,11 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .string {
-  color: @green;
+  color: @syntax-text-color;
 
+  &.quoted.single {
+    color: @green;
+  }
 
   &.regexp {
     color: @cyan;
@@ -150,11 +161,15 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .punctuation {
   &.definition {
+
     &.comment {
       color: @light-gray;
     }
 
-    &.string,
+    &.string {
+      color: @green;
+    }
+
     &.variable,
     &.parameters,
     &.array {
@@ -185,6 +200,9 @@ atom-text-editor .search-results .marker.current-result .region,
     color: darken(@red, 10%);
   }
 
+  &.other.jinja {
+    color: @syntax-text-color;
+  }
 }
 
 .support {
@@ -199,16 +217,26 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @blue;
     }
   }
+
+  &.support.variable.magic {
+    color: @syntax-text-color;
+  }
 }
 
 .entity {
   &.name.function {
     color: @blue;
-      &.python {
-        color: @ubik-function;
+
+      &.decorator.python {
+        color: @base4;
         font-weight: bold;
       }
+
+      &.python {
+        color: @orange;
+      }
   }
+
   &.name.type {
     color: @ubik-yellow;
     text-decoration: underline;
@@ -239,12 +267,8 @@ atom-text-editor .search-results .marker.current-result .region,
     }
   }
 
-  &.other {
-    color: @blue;
-    &.jinja {
-      color: @ubik-syntax;
-    }
-
+  &.other.jinja {
+    color: @ubik-syntax;
   }
 }
 
@@ -254,7 +278,11 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function-call {
-    color: @ubik-syntax;
+    color: @orange;
+
+    &.python {
+      color: @ubik-syntax;
+    }
   }
 
   &.link {
