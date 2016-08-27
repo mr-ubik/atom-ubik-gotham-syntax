@@ -1,6 +1,6 @@
 # ubik-syntax theme
 
-![Alt text](/../screenshots/screenshot.jpeg?raw=true "Optional Title")
+![Alt text](../screenshots/screenshot_1?raw=true "Screenshot")
 
 Disclaimer:
 I strongly recommend to leave the dark background unchanged and to couple it with a
