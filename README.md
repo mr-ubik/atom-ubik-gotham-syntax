@@ -1,6 +1,6 @@
 # ubik-syntax theme
 
-![Alt text](../screenshots/screenshot_1?raw=true "Screenshot")
+![alt tag](http://i.imgur.com/auTTGgP.png "Syntax")
 
 Disclaimer:
 I strongly recommend to leave the dark background unchanged and to couple it with a
