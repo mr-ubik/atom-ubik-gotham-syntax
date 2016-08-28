@@ -2,6 +2,8 @@
 
 ![alt tag](http://i.imgur.com/auTTGgP.png "Syntax")
 
+Better Screenshot: http://imgur.com/auTTGgP
+
 Disclaimer:
 I strongly recommend to leave the dark background unchanged and to couple it with a
 dark UI theme too (I am using Seti UI right now).
