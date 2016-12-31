@@ -1,12 +1,11 @@
-# ubik-syntax theme
+# ubik-syntax Atom Theme
 
 ![Screenshot](http://i.imgur.com/auTTGgP.png "Syntax")
 
 Better Screenshot: http://imgur.com/auTTGgP
 
-__Disclaimer:__
-I strongly recommend to leave the dark background unchanged and to couple it with a
-dark UI theme too (I am using Seti UI right now).
+*__Disclaimer:__
+I strongly recommend leaving the dark background unchanged, coupling it with a dark UI-theme.*
 
 ## Description
 
@@ -21,7 +20,7 @@ Since I mostly code in Python that is where my customization show itself the mos
 __SPECIAL:
   Custom Jinja code styling is supported if you use atom-jinja2.__
 
-#### Installation
+## Installation
 
 From the command line:
 `apm install ubik-syntax`
@@ -34,4 +33,4 @@ Happy Coding!
 
 Ubik
 
-_PS: if you like what you see check my spyder syntax theme and the [gotham-contrib repository](https://github.com/whatyouhide/gotham-contrib)_
+_PS: if you like what you see check my [Spyder syntax theme](https://github.com/mr-ubik/spyder-ubik-syntax) and the [gotham-contrib repository](https://github.com/whatyouhide/gotham-contrib)_
