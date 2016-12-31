@@ -22,10 +22,9 @@ __SPECIAL:
 
 ## Installation
 
-From the command line:
-`apm install ubik-syntax`
+> From the command line: `apm install ubik-syntax`
 
-From Atom, go to __Settings__ --> __Install__ --> __Themes__ --> type in __ubik-syntax__
+> From Atom, go to __Settings__ --> __Install__ --> __Themes__ --> type in __ubik-syntax__
 
 If you have any suggestions, please don't hesitate to let me know.
 
