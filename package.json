@@ -1,5 +1,5 @@
 {
-  "name": "ubik-syntax",
+  "name": "ubik-gotham-syntax",
   "theme": "syntax",
   "version": "0.3.0",
   "description": "Dark syntax theme inspired by vim's gotham colorscheme, extended to better highlight code, with a focus on Python and Jinja2.",
@@ -9,7 +9,7 @@
     "python",
     "jinja"
   ],
-  "repository": "https://github.com/mr-ubik/atom-ubik-syntax",
+  "repository": "https://github.com/mr-ubik/atom-ubik-gotham-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,4 +1,4 @@
-# ubik-syntax Atom Theme
+# ubik-gotham-syntax Atom Theme
 
 ![Screenshot](http://i.imgur.com/auTTGgP.png "Syntax")
 
