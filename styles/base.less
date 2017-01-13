@@ -13,61 +13,61 @@ atom-text-editor,atom-text-editor  {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
-  .syntax--wrap-guide {
+  .wrap-guide {
     background-color: @syntax-wrap-guide-color;
   }
 
-  .syntax--indent-guide {
+  .indent-guide {
     color: @syntax-indent-guide-color;
   }
 
-  .syntax--invisible-character {
+  .invisible-character {
     color: @syntax-invisible-character-color;
   }
 
-  .syntax--gutter {
+  .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
 
-    .syntax--line-number {
-      &.syntax--cursor-line {
+    .line-number {
+      &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
       }
 
-      &.syntax--cursor-line-no-selection {
+      &.cursor-line-no-selection {
         color: @syntax-gutter-text-color-selected;
       }
     }
   }
 
-  .syntax--gutter .syntax--line-number.syntax--folded,
-  .syntax--gutter .syntax--line-number:after,
-  .syntax--fold-marker:after {
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
     color: @light-gray;
   }
 
-  .syntax--invisible {
+  .invisible {
     color: @syntax-text-color;
   }
 
-  .syntax--cursor {
+  .cursor {
     color: @syntax-cursor-color;
   }
 
-  .syntax--selection .syntax--region {
+  .selection .region {
     background-color: @syntax-selection-color;
   }
 }
-atom-text-editor .syntax--search-results .syntax--marker .syntax--region,
-atom-text-editor .syntax--search-results .syntax--marker .syntax--region
+atom-text-editor .search-results .marker .region,
+atom-text-editor .search-results .marker .region
  {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .syntax--search-results .syntax--marker.syntax--current-result .syntax--region,
-atom-text-editor .syntax--search-results .syntax--marker.syntax--current-result .syntax--region {
+atom-text-editor .search-results .marker.current-result .region,
+atom-text-editor .search-results .marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
